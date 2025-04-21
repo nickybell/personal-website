@@ -1,0 +1,17 @@
+---
+title: "Book"
+format: html
+---
+
+I am currently writing an open-source textbook based on my teaching titled *Data Analysis for Journalism and Political Communication*. The book is an introduction to the principles of data analysis and data communication for journalists and political professionals. Readers are also introduced to *R* programming language. Topics include:
+
+* Researcher choices and biases
+* Correlation vs. causation
+* Data ethics
+* Art and science of data visualization
+* Sampling
+* Political Polling
+* Hypothesis Testing
+* Regression
+
+Anticipated publication date is August 2025.

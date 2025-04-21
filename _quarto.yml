@@ -6,8 +6,15 @@ website:
   title: "Nicholas Bell, Ph.D."
   navbar:
     left:
-      - href: index.qmd
+      - href: about.qmd
         text: "About"
+      - href: book_project.qmd
+        text: "Book"
+    right:
+      - icon: linkedin
+        href: www.linkedin.com/in/nicholasbellphd
+      - icon: github
+        href: https://github.com/nickybell
 
 format:
   html:

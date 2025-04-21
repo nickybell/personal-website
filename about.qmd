@@ -1,5 +1,5 @@
 ---
-title: "Finley Malloc"
+title: "About Me"
 about:
   template: jolla
   image: images/headshot_orangebg.jpg
@@ -12,4 +12,6 @@ about:
       href: https://github.com/nickybell
 ---
 
-About this site
+I have 11 years of experience as a data analytics and product leader, using my social science background and statistical expertise to turn the messy, complex, and unstructured data that humans generate into transformative tools and insights. I am a systems thinker, entrepreneur, technologist, and evangelist for new initiatives. I have a keen eye for both processes and products that create realizable business value, and successfully led multiple teams to deliver mission-critical projects for demanding organizations. I am skilled at communicating about statistics to non-technical audiences, honed over a decade as a data science educator.
+
+I am also part of the professional faculty at the School of Media and Public Affairs at George Washington University, where I teach courses on data analysis for journalism and political communication. My course materials are publicly available on my GitHub profile. I am very proud to have earned a perfect score for four straight semesters on student evaluations of “instructor treats students with respect."
