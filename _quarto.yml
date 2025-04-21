@@ -1,0 +1,19 @@
+project:
+  type: website
+  
+
+website:
+  title: "Nicholas Bell, Ph.D."
+  navbar:
+    left:
+      - href: index.qmd
+        text: "About"
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: false
+
+
+

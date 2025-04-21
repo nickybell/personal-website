@@ -1,0 +1,15 @@
+---
+title: "Finley Malloc"
+about:
+  template: jolla
+  image: images/headshot_orangebg.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: www.linkedin.com/in/nicholasbellphd
+    - icon: github
+      text: Github
+      href: https://github.com/nickybell
+---
+
+About this site
