@@ -6,10 +6,12 @@ website:
   title: "Nicholas Bell, Ph.D."
   navbar:
     left:
-      - href: about.qmd
+      - href: "about.qmd"
         text: "About"
-      - href: book_project.qmd
-        text: "Book"
+      - href: "teaching/teaching.qmd"
+        text: "Teaching"
+      - href: "book_project.qmd"
+        text: "Data Analysis for Journalism (book)"
     right:
       - icon: linkedin
         href: www.linkedin.com/in/nicholasbellphd

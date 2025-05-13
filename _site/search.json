@@ -25,6 +25,27 @@
     "href": "book_project.html",
     "title": "Book",
     "section": "",
-    "text": "I am currently writing an open-source textbook based on my teaching titled Data Analysis for Journalism and Political Communication. The book is an introduction to the principles of data analysis and data communication for journalists and political professionals. Readers are also introduced to R programming language. Topics include:\n\nResearcher choices and biases\nCorrelation vs. causation\nData ethics\nArt and science of data visualization\nSampling\nPolitical Polling\nHypothesis Testing\nRegression\n\nAnticipated publication date is August 2025."
+    "text": "I am currently writing an open-source textbook based on my teaching titled Data Analysis for Journalism and Political Communication. The book is an introduction to the principles of data analysis and data communication for journalists and political professionals. Readers are also introduced to R programming language. Topics include:\n\nData generating process\nResearcher biases\nCorrelation vs. causation\nData ethics\nArt and science of data visualization\nSampling\nPolitical Polling\nHypothesis Testing\nRegression\n\nAnticipated publication date is August 2025."
+  },
+  {
+    "objectID": "teaching/spring25.html",
+    "href": "teaching/spring25.html",
+    "title": "Nicholas Bell, Ph.D.",
+    "section": "",
+    "text": "title: Data Analysis for Journalism and Political Communication description: “An introduction to the principles and practices of data analysis for journalism and political communication. Students learn to become responsible consumers and producers of data, This class includes a special discussion of political polling.” university: George Washington University number: SMPA 2152"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "teaching/teaching.html",
+    "href": "teaching/teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Spring 25\n\n\n        \n            \n                Data Analysis for Journalism and Political Communication \n            \n            \n                SMPA 2152 | \n                George Washington University\n            \n            An introduction to the principles and practices of data analysis for journalism and political communication. Students learn to become responsible consumers and producers of data, This class includes a special discussion of political polling."
   }
 ]

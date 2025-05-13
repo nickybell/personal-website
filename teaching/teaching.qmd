@@ -1,0 +1,13 @@
+---
+title: "Teaching"
+listing:
+  - id: spring25
+    contents: spring25.yml
+    sort: "date desc"
+    template: ../html/teaching/listing.ejs
+---
+
+# Spring 25
+
+:::{#spring25}
+:::

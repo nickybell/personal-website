@@ -5,7 +5,8 @@ format: html
 
 I am currently writing an open-source textbook based on my teaching titled *Data Analysis for Journalism and Political Communication*. The book is an introduction to the principles of data analysis and data communication for journalists and political professionals. Readers are also introduced to *R* programming language. Topics include:
 
-* Researcher choices and biases
+* Data generating process
+* Researcher biases
 * Correlation vs. causation
 * Data ethics
 * Art and science of data visualization
