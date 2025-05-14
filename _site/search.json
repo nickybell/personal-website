@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "book_project.html",
+    "href": "book_project.html",
+    "title": "Book",
+    "section": "",
+    "text": "I am currently writing an open-source textbook based on my teaching titled Data Analysis for Journalism and Political Communication. The book is an introduction to the principles of data analysis and data communication for journalists and political professionals. Readers are also introduced to R programming language. Topics include:\n\nData generating process\nResearcher biases\nCorrelation vs. causation\nData ethics\nArt and science of data visualization\nSampling\nPolitical Polling\nHypothesis Testing\nRegression\n\nAnticipated publication date is August 2025."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
@@ -21,31 +28,59 @@
     "text": "Welcome to my personal website."
   },
   {
-    "objectID": "book_project.html",
-    "href": "book_project.html",
-    "title": "Book",
-    "section": "",
-    "text": "I am currently writing an open-source textbook based on my teaching titled Data Analysis for Journalism and Political Communication. The book is an introduction to the principles of data analysis and data communication for journalists and political professionals. Readers are also introduced to R programming language. Topics include:\n\nData generating process\nResearcher biases\nCorrelation vs. causation\nData ethics\nArt and science of data visualization\nSampling\nPolitical Polling\nHypothesis Testing\nRegression\n\nAnticipated publication date is August 2025."
-  },
-  {
-    "objectID": "teaching/spring25.html",
-    "href": "teaching/spring25.html",
-    "title": "Nicholas Bell, Ph.D.",
-    "section": "",
-    "text": "title: Data Analysis for Journalism and Political Communication description: “An introduction to the principles and practices of data analysis for journalism and political communication. Students learn to become responsible consumers and producers of data, This class includes a special discussion of political polling.” university: George Washington University number: SMPA 2152"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
     "objectID": "teaching/teaching.html",
     "href": "teaching/teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Spring 25\n\n\n        \n            \n                Data Analysis for Journalism and Political Communication \n            \n            \n                SMPA 2152 | \n                George Washington University\n            \n            An introduction to the principles and practices of data analysis for journalism and political communication. Students learn to become responsible consumers and producers of data, This class includes a special discussion of political polling."
+    "text": "Data Analysis for Journalism and Political Communication\n            \n                SMPA 2152 | \n                George Washington University\n                An introduction to the principles and practices of data analysis for journalism and political communication. Students learn to become responsible consumers and producers of data, This class includes a special discussion of political polling.\n        \n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/teaching.html#spring-2025",
+    "href": "teaching/teaching.html#spring-2025",
+    "title": "Teaching",
+    "section": "",
+    "text": "Data Analysis for Journalism and Political Communication\n            \n                SMPA 2152 | \n                George Washington University\n                An introduction to the principles and practices of data analysis for journalism and political communication. Students learn to become responsible consumers and producers of data, This class includes a special discussion of political polling.\n        \n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/teaching.html#fall-2024",
+    "href": "teaching/teaching.html#fall-2024",
+    "title": "Teaching",
+    "section": "Fall 2024",
+    "text": "Fall 2024\n\n\n        \n            Data Analysis for Journalism and Political Communication\n            \n                SMPA 2152 | \n                George Washington University\n        \n        \n            Introduction to Data Analytics\n            \n                DATA 1010 | \n                University of Pennsylvania\n                Students learn the essentials of data analysis using the R programming language, including data visualization, data wrangling, exploratory data analysis, and complex data types.\n        \n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/teaching.html#fall-2023",
+    "href": "teaching/teaching.html#fall-2023",
+    "title": "Teaching",
+    "section": "Fall 2023",
+    "text": "Fall 2023\n\n\n        \n            Data Analysis for Journalism and Political Communication\n            \n                SMPA 2152 | \n                George Washington University\n        \n        \n            Introduction to Data Analytics\n            \n                DATA 1010 | \n                University of Pennsylvania\n        \n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/teaching.html#spring-2023",
+    "href": "teaching/teaching.html#spring-2023",
+    "title": "Teaching",
+    "section": "Spring 2023",
+    "text": "Spring 2023\n\n\n        \n            Data Analysis for Journalism and Political Communication\n            \n                SMPA 2152 | \n                George Washington University\n        \n        \n            Introduction to Data Analytics\n            \n                DATA 1010 | \n                University of Pennsylvania\n        \n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/teaching.html#fall-2022",
+    "href": "teaching/teaching.html#fall-2022",
+    "title": "Teaching",
+    "section": "Fall 2022",
+    "text": "Fall 2022\n\n\n        \n            Data Analysis for Journalism and Political Communication\n            \n                SMPA 2152 | \n                George Washington University\n        \n        \n            Introduction to Data Analytics\n            \n                DATA 1010 | \n                University of Pennsylvania\n        \n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/teaching.html#summer-2020",
+    "href": "teaching/teaching.html#summer-2020",
+    "title": "Teaching",
+    "section": "Summer 2020",
+    "text": "Summer 2020\n\n\n        \n            Introduction to Data Science\n            \n                PSCI 107 | \n                University of Pennsylvania\n                An introduction to acquiring, analyzing, and visualizing data in preparation for advanced coursework and research in the social sciences. Students will learn basic principles of probability and statistics, such as hypothesis testing, simple linear regression, and experiments.\n        \n        \n            Introduction to International Relations\n            \n                PSCI 150 | \n                University of Pennsylvania\n                This course is an introduction to both the theories that international relations scholars developed to explain world politics and some of the methods that they use to build, test, and revise these theories.\n        \n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/teaching.html#summer-2019",
+    "href": "teaching/teaching.html#summer-2019",
+    "title": "Teaching",
+    "section": "Summer 2019",
+    "text": "Summer 2019\n\n\n        \n            Introduction to International Relations\n            \n                PSCI 150 | \n                University of Pennsylvania\n        \n\n\nNo matching items"
   }
 ]

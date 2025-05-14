@@ -2,16 +2,14 @@
 <div class="teaching">
     <% for (const course of items) { %>
         <div class="body">
-            <p class="course-title">
-                <%= course.title %> 
-            </p>
+            <p class="course-title"><strong><%= course.title %></strong></p>
             <p class="course-details">
                 <span class="course-number"><%= course.number %></span> | 
-                <span class="course-university"><%= course.university %></span>
-            </p>
-            <p class="course-description"><%= course.description %></p>
+                <span class="course-university"><%= course.university %></span></p>
+            <% if (course.description) { %>
+                <p class="course-description"><%= course.description %></p>
+            <% } %>  
         </div>
-    </div>
     <% } %>
 </div>
 ```

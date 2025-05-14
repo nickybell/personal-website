@@ -3,11 +3,58 @@ title: "Teaching"
 listing:
   - id: spring25
     contents: spring25.yml
-    sort: "date desc"
+    template: ../html/teaching/listing.ejs
+  - id: fall24
+    contents: fall24.yml
+    template: ../html/teaching/listing.ejs
+  - id: fall23
+    contents: fall23.yml
+    template: ../html/teaching/listing.ejs
+  - id: spring23
+    contents: spring23.yml
+    template: ../html/teaching/listing.ejs
+  - id: fall22
+    contents: fall22.yml
+    template: ../html/teaching/listing.ejs
+  - id: summer20
+    contents: summer20.yml
+    template: ../html/teaching/listing.ejs
+  - id: summer19
+    contents: summer19.yml
     template: ../html/teaching/listing.ejs
 ---
 
-# Spring 25
+## Spring 2025
 
 :::{#spring25}
+:::
+
+## Fall 2024
+
+:::{#fall24}
+:::
+
+## Fall 2023
+
+:::{#fall23}
+:::
+
+## Spring 2023
+
+:::{#spring23}
+:::
+
+## Fall 2022
+
+:::{#fall22}
+:::
+
+## Summer 2020
+
+:::{#summer20}
+:::
+
+## Summer 2019
+
+:::{#summer19}
 :::

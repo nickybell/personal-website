@@ -1,0 +1,9 @@
+- title: "Introduction to Data Science"
+  description: "An introduction to acquiring, analyzing, and visualizing data in preparation for advanced coursework and research in the social sciences. Students will learn basic principles of probability and statistics, such as hypothesis testing, simple linear regression, and experiments."
+  university: "University of Pennsylvania"
+  number: "PSCI 107"
+  
+- title: "Introduction to International Relations"
+  description: "This course is an introduction to both the theories that international relations scholars developed to explain world politics and some of the methods that they use to build, test, and revise these theories."
+  university: "University of Pennsylvania"
+  number: "PSCI 150"
