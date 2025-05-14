@@ -2,8 +2,10 @@
   description: "An introduction to acquiring, analyzing, and visualizing data in preparation for advanced coursework and research in the social sciences. Students will learn basic principles of probability and statistics, such as hypothesis testing, simple linear regression, and experiments."
   university: "University of Pennsylvania"
   number: "PSCI 107"
+  syllabus: "syllabi/psci107/Summer_2020_Introduction_to_Data_Science_Syllabus.pdf"
   
 - title: "Introduction to International Relations"
   description: "This course is an introduction to both the theories that international relations scholars developed to explain world politics and some of the methods that they use to build, test, and revise these theories."
   university: "University of Pennsylvania"
   number: "PSCI 150"
+  syllabus: "syllabi/psci150/Summer_2020_Introduction_to_IR_Syllabus.pdf"

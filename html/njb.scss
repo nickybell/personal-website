@@ -1,0 +1,17 @@
+.teaching {
+  ul.course-semesters {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    
+    li {
+      display: inline-block;
+      white-space: nowrap;
+      background-color: $orange;
+      margin: 0 0.2em 0.4em 0;
+      padding: 0.2em 0.4em;
+      font-size: 0.85em;
+      border-radius: 0.25rem;
+      }
+   }
+}

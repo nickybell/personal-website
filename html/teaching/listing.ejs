@@ -8,7 +8,11 @@
                 <span class="course-university"><%= course.university %></span></p>
             <% if (course.description) { %>
                 <p class="course-description"><%= course.description %></p>
-            <% } %>  
+            <% } %>
+            <% if (course.syllabus) { %>
+                <a style = "text-decoration: none;" href="<%= course.syllabus %>" target="_blank"><button class="button"><span> Syllabus </span></button></a>
+                <br>
+            <% } %>
         </div>
     <% } %>
 </div>
