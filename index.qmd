@@ -13,6 +13,10 @@ about:
 sidebar: false
 ---
 
-## Welcome
+Welcome to my personal website. I am a data analytics professional with more than a decade of experience leading teams and projects in many different industries and types of organizations.
 
-Welcome to my personal website.
+I am also an adjuct professor of data science at George Washington University's School of Media and Public Affairs.
+
+I earned my Ph.D. in political science (quantitative focus) from the University of Pennsylvania in 2022.
+
+I am open to new connections with data analytics professionals, industry PhDs, R enthusiasts, and anyone with a curiosity about my work. My LinkedIn profile is below.
