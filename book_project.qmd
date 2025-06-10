@@ -3,16 +3,51 @@ title: "Book"
 format: html
 ---
 
-I am currently writing an open-source textbook based on my teaching titled *Data Analysis for Journalism and Political Communication*. The book is an introduction to the principles of data analysis and data communication for journalists and political professionals. Readers are also introduced to *R* programming language. Topics include:
+I am currently writing an open-source textbook based on my teaching titled *Data Analysis for Journalism and Political Communication*. The book is an introduction to the principles of data analysis and data communication for journalists and political professionals. Special sections cover applications to political polling and machine learning. In addition, readers will be introduced to the *R* programming language through coding exercises embedded directly in the e-book. Topics include:
 
-* Data generating process
-* Researcher biases
+* The data generating process
+    * Data sources and researcher bias
+    * Operationalization and measurement bias
+    * Randomization and selection bias
+    * Sample size and uncertainty
+    * Missing data and outliers
+    * Application in *R*: Exploratory data analysis
 * Correlation vs. causation
+    * Positive and negative correlation
+    * Rubin causal model
+    * Experiments
+    * Causal inference using observational data
+    * Substantive vs. statistical effects
+    * Application in *R*: Analysis of [Gerber and Greeen (2000)](https://isps.yale.edu/sites/default/files/publication/2012/12/ISPS00-001.pdf)
+* Measuring uncertainty
+    * The sampling distribution
+    * Type I vs. Type II error
+    * P-values
+    * Confidence intervals
+    * Application in *R*: The dangers of "crosstab diving" in polls
 * Data ethics
-* Art and science of data visualization
-* Sampling
-* Political Polling
-* Hypothesis Testing
-* Regression
+    * The Belmont Report and the Common Rule
+    * Informed consent
+    * Case studies of ethical challenges in data
+    * De-identification
+    * Application in *R*: De-identifying administrative data
+* Data visualization
+    * Historical development of data visualization
+    * [Edward Tufte's](https://www.edwardtufte.com/) design principles
+    * The science of data visualization
+    * Engineers vs. designers
+    * An opinionated guide to data visualization
+    * Application in *R*: Re-creating Charles Minard's [famous graph](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Redrawing_of_Minard%27s_Napoleon_map.svg/1920px-Redrawing_of_Minard%27s_Napoleon_map.svg.png) of Napoleon's invasion of Russia
+* Political polling
+    * Historical development of political polling
+    * Total survey error framework
+    * Review of 2016, 2020, 2022, and 2024 election polling
+    * Ignorable vs. non-ignorable response bias
+    * Sample weighting
+    * Sample construction and survey techniques
+    * Survey design best practices
+    * Advances in AI and political polling 
+    * Application: Weighting polls to correct for ignorable non-response bias
+* Machine Learning (content TBA)
 
-Anticipated publication date is August 2025.
+Anticipated publication date is December 2025.
