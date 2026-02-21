@@ -10,8 +10,9 @@ website:
         text: "About"
       - href: "teaching/teaching.qmd"
         text: "Teaching"
-      - href: "book_project.qmd"
-        text: "Data Analysis for Journalism (book)"
+      - href: "https://www.powered-analysis.com/"
+        text: "Powered Analysis"
+        target: "_blank"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/nicholasbellphd
