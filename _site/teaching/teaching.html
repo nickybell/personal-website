@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-bc0f8f5f64f9b13dc60639c23929fa91.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d6bc9ee00b34ad8ae8d802a3b67cd989.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,6 +71,62 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-spring26 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-university','listing-number','listing-syllabus',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-university","listing-number","listing-syllabus"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-spring26'] = new List('listing-spring26', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-fall25 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-university','listing-number','listing-syllabus',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-university","listing-number","listing-syllabus"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-fall25'] = new List('listing-fall25', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-spring25 .list');
@@ -108,9 +164,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-university','listing-number','listing-syllabus','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-description','listing-university','listing-number','listing-syllabus',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-university","listing-number","listing-syllabus","listing-description"],
+      searchColumns: ["listing-title","listing-description","listing-university","listing-number","listing-syllabus"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -136,9 +192,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-university','listing-number','listing-syllabus',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-description','listing-university','listing-number','listing-syllabus',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-university","listing-number","listing-syllabus"],
+      searchColumns: ["listing-title","listing-description","listing-university","listing-number","listing-syllabus"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -164,9 +220,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-university','listing-number','listing-syllabus',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-description','listing-university','listing-number','listing-syllabus',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-university","listing-number","listing-syllabus"],
+      searchColumns: ["listing-title","listing-description","listing-university","listing-number","listing-syllabus"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -192,13 +248,41 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-university','listing-number','listing-syllabus',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-description','listing-university','listing-number',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-university","listing-number","listing-syllabus"],
+      searchColumns: ["listing-title","listing-description","listing-university","listing-number"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-fall22'] = new List('listing-fall22', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-spring22 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-university','listing-number','listing-syllabus',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-university","listing-number","listing-syllabus"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-spring22'] = new List('listing-spring22', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -248,9 +332,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-university','listing-number','listing-syllabus',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-description','listing-university','listing-number','listing-syllabus',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-university","listing-number","listing-syllabus"],
+      searchColumns: ["listing-title","listing-description","listing-university","listing-number","listing-syllabus"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -327,7 +411,7 @@ window.Quarto = {
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.powered-analysis.com/"> 
+    <a class="nav-link" href="https://www.powered-analysis.com/" target="_blank"> 
 <span class="menu-text">Powered Analysis</span></a>
   </li>  
 </ul>
@@ -376,25 +460,115 @@ window.Quarto = {
 </header>
 
 
+<section id="spring-2026" class="level2">
+<h2 class="anchored" data-anchor-id="spring-2026">Spring 2026</h2>
+<div id="listing-spring26" class="quarto-listing quarto-listing-container-custom">
+<div class="teaching">
+    
+        <div class="body">
+            <p class="course-title"><strong>
+                    Data Analysis for Journalism and Political Communication
+                </strong></p>
+            <p class="course-details">
+                <span class="course-number">
+                    SMPA 2152
+                </span> |
+                <span class="course-university">
+                    George Washington University
+                </span>
+            </p>
+            
+                <p class="course-description">
+                    An introduction to the principles and practices of data analysis for journalism and political communication. Students learn to become responsible consumers and producers of data, This class includes a special discussion of political polling.
+                </p>
+                
+                    
+                        <a style="text-decoration: none;" href="syllabi/smpa2152/Spring_2026_Data_Analysis_for_Journalism_and_Political_Communication_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
+                        
+        </div>
+        
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="fall-2025" class="level2">
+<h2 class="anchored" data-anchor-id="fall-2025">Fall 2025</h2>
+<div id="listing-fall25" class="quarto-listing quarto-listing-container-custom">
+<div class="teaching">
+    
+        <div class="body">
+            <p class="course-title"><strong>
+                    Data Analysis for Journalism and Political Communication
+                </strong></p>
+            <p class="course-details">
+                <span class="course-number">
+                    SMPA 2152
+                </span> |
+                <span class="course-university">
+                    George Washington University
+                </span>
+            </p>
+            
+                <p class="course-description">
+                    See above.
+                </p>
+                
+                    
+                        <a style="text-decoration: none;" href="syllabi/smpa2152/Fall_2025_Data_Analysis_for_Journalism_and_Political_Communication_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
+                        
+        </div>
+        
+        <div class="body">
+            <p class="course-title"><strong>
+                    Introduction to Statistical Methods
+                </strong></p>
+            <p class="course-details">
+                <span class="course-number">
+                    DATA 3100
+                </span> |
+                <span class="course-university">
+                    University of Pennsylvania
+                </span>
+            </p>
+            
+                <p class="course-description">
+                    Students learn how to evaluate hypothesis using statistical estimators, including hypothesis testing and linear regression.
+                </p>
+                
+                    
+        </div>
+        
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
 <section id="spring-2025" class="level2">
 <h2 class="anchored" data-anchor-id="spring-2025">Spring 2025</h2>
 <div id="listing-spring25" class="quarto-listing quarto-listing-container-custom">
 <div class="teaching">
     
         <div class="body">
-            <p class="course-title"><strong>Data Analysis for Journalism and Political Communication</strong></p>
+            <p class="course-title"><strong>
+                    Data Analysis for Journalism and Political Communication
+                </strong></p>
             <p class="course-details">
-                <span class="course-number">SMPA 2152</span> | 
-                <span class="course-university">George Washington University</span></p>
+                <span class="course-number">
+                    SMPA 2152
+                </span> |
+                <span class="course-university">
+                    George Washington University
+                </span>
+            </p>
             
-                <p class="course-description">An introduction to the principles and practices of data analysis for journalism and political communication. Students learn to become responsible consumers and producers of data, This class includes a special discussion of political polling.</p>
-            
-            
-                <a style="text-decoration: none;" href="syllabi/smpa2152/Spring_2025_Data_Analysis_for_Journalism_and_Political_Communication_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
-                <br>
-            
+                <p class="course-description">
+                    See above.
+                </p>
+                
+                    
+                        <a style="text-decoration: none;" href="syllabi/smpa2152/Spring_2025_Data_Analysis_for_Journalism_and_Political_Communication_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
+                        
         </div>
-    
+        
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -405,28 +579,47 @@ window.Quarto = {
 <div class="teaching">
     
         <div class="body">
-            <p class="course-title"><strong>Data Analysis for Journalism and Political Communication</strong></p>
+            <p class="course-title"><strong>
+                    Data Analysis for Journalism and Political Communication
+                </strong></p>
             <p class="course-details">
-                <span class="course-number">SMPA 2152</span> | 
-                <span class="course-university">George Washington University</span></p>
+                <span class="course-number">
+                    SMPA 2152
+                </span> |
+                <span class="course-university">
+                    George Washington University
+                </span>
+            </p>
             
-            
-                <a style="text-decoration: none;" href="syllabi/smpa2152/Fall_2024_Data_Analysis_for_Journalism_and_Political_Communication_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
-                <br>
-            
+                <p class="course-description">
+                    See above.
+                </p>
+                
+                    
+                        <a style="text-decoration: none;" href="syllabi/smpa2152/Fall_2024_Data_Analysis_for_Journalism_and_Political_Communication_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
+                        
         </div>
-    
+        
         <div class="body">
-            <p class="course-title"><strong>Introduction to Data Analytics</strong></p>
+            <p class="course-title"><strong>
+                    Introduction to Data Analytics
+                </strong></p>
             <p class="course-details">
-                <span class="course-number">DATA 1010</span> | 
-                <span class="course-university">University of Pennsylvania</span></p>
+                <span class="course-number">
+                    DATA 1010
+                </span> |
+                <span class="course-university">
+                    University of Pennsylvania
+                </span>
+            </p>
             
-                <p class="course-description">Students learn the essentials of data analysis using the R programming language, including data visualization, data wrangling, exploratory data analysis, and complex data types.</p>
-            
-            
+                <p class="course-description">
+                    Students learn the essentials of data analysis using the R programming language, including data visualization, data wrangling, exploratory data analysis, and complex data types.
+                </p>
+                
+                    
         </div>
-    
+        
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -437,26 +630,47 @@ window.Quarto = {
 <div class="teaching">
     
         <div class="body">
-            <p class="course-title"><strong>Data Analysis for Journalism and Political Communication</strong></p>
+            <p class="course-title"><strong>
+                    Data Analysis for Journalism and Political Communication
+                </strong></p>
             <p class="course-details">
-                <span class="course-number">SMPA 2152</span> | 
-                <span class="course-university">George Washington University</span></p>
+                <span class="course-number">
+                    SMPA 2152
+                </span> |
+                <span class="course-university">
+                    George Washington University
+                </span>
+            </p>
             
-            
-                <a style="text-decoration: none;" href="syllabi/smpa2152/Fall_2023_Data_Analysis_for_Journalism_and_Political_Communication_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
-                <br>
-            
+                <p class="course-description">
+                    See above.
+                </p>
+                
+                    
+                        <a style="text-decoration: none;" href="syllabi/smpa2152/Fall_2023_Data_Analysis_for_Journalism_and_Political_Communication_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
+                        
         </div>
-    
+        
         <div class="body">
-            <p class="course-title"><strong>Introduction to Data Analytics</strong></p>
+            <p class="course-title"><strong>
+                    Introduction to Data Analytics
+                </strong></p>
             <p class="course-details">
-                <span class="course-number">DATA 1010</span> | 
-                <span class="course-university">University of Pennsylvania</span></p>
+                <span class="course-number">
+                    DATA 1010
+                </span> |
+                <span class="course-university">
+                    University of Pennsylvania
+                </span>
+            </p>
             
-            
+                <p class="course-description">
+                    See above.
+                </p>
+                
+                    
         </div>
-    
+        
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -467,26 +681,47 @@ window.Quarto = {
 <div class="teaching">
     
         <div class="body">
-            <p class="course-title"><strong>Data Analysis for Journalism and Political Communication</strong></p>
+            <p class="course-title"><strong>
+                    Data Analysis for Journalism and Political Communication
+                </strong></p>
             <p class="course-details">
-                <span class="course-number">SMPA 2152</span> | 
-                <span class="course-university">George Washington University</span></p>
+                <span class="course-number">
+                    SMPA 2152
+                </span> |
+                <span class="course-university">
+                    George Washington University
+                </span>
+            </p>
             
-            
-                <a style="text-decoration: none;" href="syllabi/smpa2152/Spring_2023_Data_Analysis_for_Journalism_and_Political_Communication_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
-                <br>
-            
+                <p class="course-description">
+                    See above.
+                </p>
+                
+                    
+                        <a style="text-decoration: none;" href="syllabi/smpa2152/Spring_2023_Data_Analysis_for_Journalism_and_Political_Communication_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
+                        
         </div>
-    
+        
         <div class="body">
-            <p class="course-title"><strong>Introduction to Data Analytics</strong></p>
+            <p class="course-title"><strong>
+                    Introduction to Data Analytics
+                </strong></p>
             <p class="course-details">
-                <span class="course-number">DATA 1010</span> | 
-                <span class="course-university">University of Pennsylvania</span></p>
+                <span class="course-number">
+                    DATA 1010
+                </span> |
+                <span class="course-university">
+                    University of Pennsylvania
+                </span>
+            </p>
             
-            
+                <p class="course-description">
+                    See above.
+                </p>
+                
+                    
         </div>
-    
+        
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -497,26 +732,56 @@ window.Quarto = {
 <div class="teaching">
     
         <div class="body">
-            <p class="course-title"><strong>Data Analysis for Journalism and Political Communication</strong></p>
+            <p class="course-title"><strong>
+                    Introduction to Data Analytics
+                </strong></p>
             <p class="course-details">
-                <span class="course-number">SMPA 2152</span> | 
-                <span class="course-university">George Washington University</span></p>
+                <span class="course-number">
+                    DATA 1010
+                </span> |
+                <span class="course-university">
+                    University of Pennsylvania
+                </span>
+            </p>
             
-            
-                <a style="text-decoration: none;" href="syllabi/smpa2152/Fall_2022_Data_Analysis_for_Journalism_and_Political_Communication_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
-                <br>
-            
+                <p class="course-description">
+                    See above.
+                </p>
+                
+                    
         </div>
+        
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="spring-2022" class="level2">
+<h2 class="anchored" data-anchor-id="spring-2022">Spring 2022</h2>
+<div id="listing-spring22" class="quarto-listing quarto-listing-container-custom">
+<div class="teaching">
     
         <div class="body">
-            <p class="course-title"><strong>Introduction to Data Analytics</strong></p>
+            <p class="course-title"><strong>
+                    Data Analysis for Journalism and Political Communication
+                </strong></p>
             <p class="course-details">
-                <span class="course-number">DATA 1010</span> | 
-                <span class="course-university">University of Pennsylvania</span></p>
+                <span class="course-number">
+                    SMPA 2152
+                </span> |
+                <span class="course-university">
+                    George Washington University
+                </span>
+            </p>
             
-            
+                <p class="course-description">
+                    See above.
+                </p>
+                
+                    
+                        <a style="text-decoration: none;" href="syllabi/smpa2152/Spring_2022_Data_Analysis_for_Journalism_and_Political_Communication_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
+                        
         </div>
-    
+        
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -527,33 +792,49 @@ window.Quarto = {
 <div class="teaching">
     
         <div class="body">
-            <p class="course-title"><strong>Introduction to Data Science</strong></p>
+            <p class="course-title"><strong>
+                    Introduction to Data Science
+                </strong></p>
             <p class="course-details">
-                <span class="course-number">PSCI 107</span> | 
-                <span class="course-university">University of Pennsylvania</span></p>
+                <span class="course-number">
+                    PSCI 107
+                </span> |
+                <span class="course-university">
+                    University of Pennsylvania
+                </span>
+            </p>
             
-                <p class="course-description">An introduction to acquiring, analyzing, and visualizing data in preparation for advanced coursework and research in the social sciences. Students will learn basic principles of probability and statistics, such as hypothesis testing, simple linear regression, and experiments.</p>
-            
-            
-                <a style="text-decoration: none;" href="syllabi/psci107/Summer_2020_Introduction_to_Data_Science_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
-                <br>
-            
+                <p class="course-description">
+                    An introduction to acquiring, analyzing, and visualizing data in preparation for advanced coursework and research in the social sciences. Students will learn basic principles of probability and statistics, such as hypothesis testing, simple linear regression, and experiments.
+                </p>
+                
+                    
+                        <a style="text-decoration: none;" href="syllabi/psci107/Summer_2020_Introduction_to_Data_Science_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
+                        
         </div>
-    
+        
         <div class="body">
-            <p class="course-title"><strong>Introduction to International Relations</strong></p>
+            <p class="course-title"><strong>
+                    Introduction to International Relations
+                </strong></p>
             <p class="course-details">
-                <span class="course-number">PSCI 150</span> | 
-                <span class="course-university">University of Pennsylvania</span></p>
+                <span class="course-number">
+                    PSCI 150
+                </span> |
+                <span class="course-university">
+                    University of Pennsylvania
+                </span>
+            </p>
             
-                <p class="course-description">This course is an introduction to both the theories that international relations scholars developed to explain world politics and some of the methods that they use to build, test, and revise these theories.</p>
-            
-            
-                <a style="text-decoration: none;" href="syllabi/psci150/Summer_2020_Introduction_to_IR_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
-                <br>
-            
+                <p class="course-description">
+                    This course is an introduction to both the theories that international relations scholars developed to explain world politics and some of the methods that they use to build, test, and revise these theories.
+                </p>
+                
+                    
+                        <a style="text-decoration: none;" href="syllabi/psci150/Summer_2020_Introduction_to_IR_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
+                        
         </div>
-    
+        
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -564,17 +845,27 @@ window.Quarto = {
 <div class="teaching">
     
         <div class="body">
-            <p class="course-title"><strong>Introduction to International Relations</strong></p>
+            <p class="course-title"><strong>
+                    Introduction to International Relations
+                </strong></p>
             <p class="course-details">
-                <span class="course-number">PSCI 150</span> | 
-                <span class="course-university">University of Pennsylvania</span></p>
+                <span class="course-number">
+                    PSCI 150
+                </span> |
+                <span class="course-university">
+                    University of Pennsylvania
+                </span>
+            </p>
             
-            
-                <a style="text-decoration: none;" href="syllabi/psci150/Summer_2019_Introduction_to_IR_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
-                <br>
-            
+                <p class="course-description">
+                    See above.
+                </p>
+                
+                    
+                        <a style="text-decoration: none;" href="syllabi/psci150/Summer_2019_Introduction_to_IR_Syllabus.pdf" target="_blank"><button class="button"><span> Syllabus </span></button></a>
+                        
         </div>
-    
+        
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
