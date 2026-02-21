@@ -13,10 +13,12 @@ about:
 sidebar: false
 ---
 
-Welcome to my personal website. I am a data analytics professional with more than a decade of experience leading teams and projects across different industries and types of organizations.
+## I turn data science and AI into scalable success at visionary companies.
 
-I am also an adjuct professor of data science at George Washington University's [School of Media and Public Affairs](https://smpa.gwu.edu/){target="_blank"}.
+I am a startup operator and founder, data scientist, and educator. I am currently Chief of Staff at [Keywell.ai](https://www.keywell.ai/){target="_blank"}, where I lead operations and customer success. Previously, I was Founding Director of Data Science at [Keywell.ai](https://www.clairity.com/){target="_blank"} and the first Analytics Lead at [FlagshipRTL](https://flagshiprtl.com/){target="_blank"}.
 
-I earned my Ph.D. in political science (quantitative focus) from the [University of Pennsylvania](https://www.polisci.upenn.edu/){target="_blank"} in 2022.
+I am also the founder of [Powered Analysis](https://flagshiprtl.com/){target="_blank"}, a dual-focus AI dedicated to raising the standard of automated data analysis. We offer no-code, no-math courses for business leaders to apply a "Data Analysis Mindset" to AI outputs, and we are developing **Circuit**, a statistical validation layer that catches the data errors that LLMs miss.
 
-I am open to [new connections](https://www.linkedin.com/in/nicholasbellphd){target="_blank"} with data analytics professionals, industry PhDs, R enthusiasts, and anyone with a curiosity about my work. My LinkedIn profile is below.
+Since 2020, I have been an adjuct professor of data science at George Washington University's [School of Media and Public Affairs](https://smpa.gwu.edu/){target="_blank"} and in the University of Pennsylvania's [Data Analytics Certificate program](https://lpsonline.sas.upenn.edu/academics/certificates/data-analytics){target="_blank"}.
+
+I am open to [new connections](https://www.linkedin.com/in/nicholasbellphd){target="_blank"} with startup founders and operators, academia-to-industry PhDs, and anyone with a curiosity about my work.

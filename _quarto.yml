@@ -20,9 +20,10 @@ website:
 
 format:
   html:
-    theme: litera
+    theme:
+      - litera
+      - html/njb.scss
     css: styles.css
     toc: false
-
-
+    
 
