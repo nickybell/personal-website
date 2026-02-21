@@ -4,6 +4,10 @@ $font-family-sans-serif: 'Roboto', sans-serif;
 /*-- scss:rules --*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
+p {
+  font-family: 'Roboto', sans-serif !important;
+}
+
 .teaching {
   ul.course-semesters {
     list-style: none;
